@@ -1,0 +1,9 @@
+Preprocessing started
+1 samplers constructed with following prototypes:
+RealScalar sampled via: [RealSliceSampler]
+Sampling started
+Change of measure complete [iter=207, Z=-3.9409411146553177]
+Normalization constant estimate: -3.9409411146553177
+Final rejuvenation started
+Preprocessing time: 54.80 ms
+Sampling time: 1.412 s

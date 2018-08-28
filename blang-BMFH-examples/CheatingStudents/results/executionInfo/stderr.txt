@@ -1,0 +1,1 @@
+WARNING: Bare Repository has neither a working tree, nor an index.

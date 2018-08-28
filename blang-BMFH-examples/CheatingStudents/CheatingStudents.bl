@@ -1,0 +1,12 @@
+package demo
+
+model CheatingStudents {
+	random RealVar p ?: latentReal 
+	random IntVar yes_responses ?: fixedInt(35)
+	
+	
+	laws {
+		p ~ ContinuousUniform(0,1)
+		yes_responses | p ~ Binomial(100, ( (0.5 * p) + 0.25) )
+	}
+}
